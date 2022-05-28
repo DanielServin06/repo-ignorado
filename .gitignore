@@ -1,1 +1,28 @@
-./templates/ContenidoSecreto 
+#Ignorando la carpeta ContenidoSecreto
+**/ContenidoSecreto
+
+#Ignorando el archivo config.php
+**/config.php
+
+#Ignorando los archivos pdf dentro de assets
+assets/*.pdf
+assets/media/files/*.pdf 
+
+#Ignorando los archivos txt
+*.txt
+
+#Ignorando las imágenes que no son importantes para el sistema
+**loki-miss-minute-512x512.png
+**/photo_2022_04_20_18-11-09.jpg
+**/steamuserimages-a.akamaihd.net.jpg
+**/IMG_20220515_125319.jpg
+**gif-club-penguin-dance.gif
+
+#Ignorando los archivos con la bandera local 
+*local*.php
+*local*.js
+
+#Ignorando los archivos con la bandera prueba
+*prueba*.js
+*prueba*.php
+
